@@ -1,0 +1,24 @@
+header #logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #434128;
+
+}
+
+header #nav-list {
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+header #nav-list li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+  
+header #nav-list li a:hover {
+    color: #007bff;;
+}
