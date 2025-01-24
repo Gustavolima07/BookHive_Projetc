@@ -1,18 +1,27 @@
+
+
 header #logo{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
-    color: #434128;
-
+    background-image: linear-gradient(rgb(178, 181, 0), rgb(0, 0, 0));
+    color: transparent;
+    background-clip: text; 
 }
 
-header #nav-list {
-    font-size: 1rem;
+header #nav-list{
+    height: 40px;
+    font-size: 1.5rem;
     list-style: none;
-    display: flex;
-    gap: 20px;
+    padding: 20px;
+    background-color: ;
 }
-  
+
+#bee-logo{
+    width: 60px;
+    height: 60px;
+}
+
 header #nav-list li a {
     text-decoration: none;
     color: #000;
@@ -20,5 +29,26 @@ header #nav-list li a {
 }
   
 header #nav-list li a:hover {
-    color: #007bff;;
+    color: #afaf06;;
+    font-size: larger;
+}
+
+.navbar, #nav-list{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: #c1b31c;
+    filter: brightness(1);
+    height: 100vh;
+}
+
+#bee-mascote{
+    width: 300px;
+    height: 300px;
+    margin: 10dvh 0 0 30dvh;
 }
