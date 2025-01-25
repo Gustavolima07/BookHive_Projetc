@@ -1,54 +1,38 @@
+header{
+    display: flex;
+    width: 100%;
+    background-color: #f0f2b7;
+    justify-content: space-between;
+    padding:20dvh;
+    align-items: center;
+}
 
-
-header #logo{
-    font-size: 2rem;
+#logo{
+    font-size: 26px;
     font-weight: bold;
-    text-decoration: none;
-    background-image: linear-gradient(rgb(178, 181, 0), rgb(0, 0, 0));
-    color: transparent;
-    background-clip: text; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(#c4c939, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-header #nav-list{
-    height: 40px;
-    font-size: 1.5rem;
-    list-style: none;
-    padding: 20px;
-    background-color: ;
-}
-
-#bee-logo{
+#bee{
     width: 60px;
     height: 60px;
 }
 
-header #nav-list li a {
+
+#nav_topics{
+    font-size: 22px;
+}   
+
+#nav_topics a{
     text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
-  
-header #nav-list li a:hover {
-    color: #afaf06;;
-    font-size: larger;
+    color: #000000;
+    margin: 0 10px;
 }
 
-.navbar, #nav-list{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-
-section{
-    display: flex;
-    justify-content: center;
-    background-color: #c1b31c;
-    filter: brightness(1);
-    height: 100vh;
-}
-
-#bee-mascote{
-    width: 300px;
-    height: 300px;
-    margin: 10dvh 0 0 30dvh;
+#nav_topics a:hover{
+    color: #c4c939;
+    text-decoration: underline;
 }
