@@ -7,20 +7,33 @@ header{
     align-items: center;
 }
 
+#search_books{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    top: 10px
+}
+
+input{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
 #logo{
     font-size: 26px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: -webkit-linear-gradient(#c4c939, #333);
+    background: -webkit-linear-gradient(#f2f848, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 #bee{
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 }
-
 
 #nav_topics{
     font-size: 22px;
@@ -34,5 +47,10 @@ header{
 
 #nav_topics a:hover{
     color: #c4c939;
-    text-decoration: underline;
+    text-decoration: underline; 
+}
+
+#home_page{
+    width: 100%;
+    
 }

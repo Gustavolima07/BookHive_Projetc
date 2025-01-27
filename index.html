@@ -15,20 +15,30 @@
 <body>
     <header class="flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="#" id="logo" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"><img id="bee" src="./Img/flying-color-stroke-honey-bee-83e01f.webp">BookHive!</a>
-         <ul id="nav" class="nav  nav-pills">
+        <div id="search_books" class="input-group mb-3 ">
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Livros</a></li>
+                <li><a class="dropdown-item" href="#">Autores</a></li>
+                <li><a class="dropdown-item" href="#">Editoras</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+            </ul>
+            <input type="text" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="button-addon2">
+        </div>
+        
+         <ul id="nav" class="nav  nav-pills ">
             <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Cadastros</a></li>
+            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Avaliações</a></li>
+            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
          </ul>
     </header>
 
-    <main>
-        <section>
-            
-        </section>
-    </main>
+    <h1 style="text-align: center;">Explore os melhores livros!</h1>
     
     <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
