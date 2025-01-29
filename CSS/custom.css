@@ -1,17 +1,26 @@
+body{
+    background-color: aliceblue;
+    color: #000000;
+    max-width: 100%;
+    margin: 0  auto;
+}
+
 header{
     display: flex;
+    flex-direction: row;
     width: 100%;
     background-color: #f0f2b7;
     justify-content: space-between;
-    padding:20dvh;
     align-items: center;
+    padding: 30px;
 }
 
 #search_books{
     display: flex;
     justify-content: center;
     width: 350px;
-    top: 10px
+    top: 10px; 
+    margin-left: 20px;
 }
 
 input{
@@ -21,7 +30,8 @@ input{
     padding: 5px;
 }
 
-#logo{
+#title{
+    justify-content: start;
     font-size: 26px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,11 +56,60 @@ input{
 }
 
 #nav_topics a:hover{
-    color: #c4c939;
-    text-decoration: underline; 
+    color: #b1c310;
+    transition: 0.3s all;
 }
 
-#home_page{
-    width: 100%;
-    
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 4 0px;
+}
+
+span{
+    color: rgb(142, 21, 255);
+}
+
+#bee_ilustration{
+    width: 400px;
+}
+
+p{
+    font-size: 22px;
+    max-width: 550px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#nome, #email{
+    margin-top: 20px;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+#submit{
+    text-align: center;
+    margin-top: 10px;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: #b1c310;
+    transition: 0.3s all;
 }

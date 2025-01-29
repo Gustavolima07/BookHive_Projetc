@@ -7,6 +7,7 @@
     <title>BookHive!🐝📚</title>
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/custom.css">
+    <link rel="stylesheet" href="./CSS/media.css">
     <script src="./JS/jquery-3.7.1.min.js"></script>
     <scrip>
 
@@ -14,7 +15,10 @@
 </head>
 <body>
     <header class="flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="#" id="logo" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"><img id="bee" src="./Img/flying-color-stroke-honey-bee-83e01f.webp">BookHive!</a>
+        <div id="title">
+            <a href="#" id="logo"><img id="bee" src="./Components/Img/flying-color-stroke-honey-bee-83e01f.webp" alt="Bee logo">Book Hive!</a>    
+        </div> 
+
         <div id="search_books" class="input-group mb-3 ">
             <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
@@ -38,7 +42,24 @@
          </ul>
     </header>
 
-    <h1 style="text-align: center;">Explore os melhores livros!</h1>
+    <main>
+        <aside>
+            <h2><span>Explore tudo sobre os melhores livros</span></h2>
+            <h3>Resenhas, discussoções e muito mais!</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis itaque non eaque, incidunt optio fugit voluptates, ea dolorum ipsam veritatis quibusdam facilis dignissimos! Est quas nisi quis aut maiores voluptatem.
+            </p>
+
+            <form id="login" class="mb-3">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+                <input type="submit" class="form-control" id="submit" value="Enviar">
+            </form>
+        </aside>
+
+        <article>
+            <img src="./Components/Img/image.png" alt="Abelha baitola" id="bee_ilustration">
+        </article>
+    </main>
     
     <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
