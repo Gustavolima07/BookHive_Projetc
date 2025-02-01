@@ -1,8 +1,9 @@
 body{
-    background-color: aliceblue;
+    background-color: #FFFCF2; 
     color: #000000;
-    max-width: 100%;
+    width: 100%;
     margin: 0  auto;
+    font-family: poppinsregular;
 }
 
 header{
@@ -23,7 +24,7 @@ header{
     margin-left: 20px;
 }
 
-input{
+#input_search{
     width: 300px;
     border-radius: 5px;
     border: 1px solid #000000;
@@ -32,7 +33,8 @@ input{
 
 #title{
     justify-content: start;
-    font-size: 26px;
+    font-family: poppinsbold;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: -webkit-linear-gradient(#f2f848, #000000);
@@ -73,7 +75,7 @@ h2{
 }
 
 span{
-    color: rgb(142, 21, 255);
+    color: #EF476F;
 }
 
 #bee_ilustration{
@@ -101,15 +103,16 @@ form{
 
 #submit{
     text-align: center;
+    margin: 0 auto;
     margin-top: 10px;
     height: 50px;
     width: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color:#06D6A0;
     color: black;
     font-weight: bold;
 }
 
 #submit:hover{
-    background-color: #b1c310;
+    background-color: #aef300;
     transition: 0.3s all;
 }

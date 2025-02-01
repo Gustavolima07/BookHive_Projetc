@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="gusttavo_lima07">
+    <meta name="keywords" content="BookHive, livros, resenhas, autores, editoras">
     <title>BookHive!🐝📚</title>
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/custom.css">
     <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="./CSS/fonts.css">
     <script src="./JS/jquery-3.7.1.min.js"></script>
     <scrip>
 
@@ -31,11 +33,11 @@
                     <hr class="dropdown-divider">
                 </li>
             </ul>
-            <input type="text" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="button-addon2">
+            <input id="input_search" type="text" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="button-addon2">
         </div>
         
          <ul id="nav" class="nav  nav-pills ">
-            <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li id="nav_topics" class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
             <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Cadastros</a></li>
             <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Avaliações</a></li>
             <li id="nav_topics" class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
@@ -46,21 +48,24 @@
         <aside>
             <h2><span>Explore tudo sobre os melhores livros</span></h2>
             <h3>Resenhas, discussoções e muito mais!</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis itaque non eaque, incidunt optio fugit voluptates, ea dolorum ipsam veritatis quibusdam facilis dignissimos! Est quas nisi quis aut maiores voluptatem.
+            <p>Descubra um universo de histórias incríveis! No Book Hive, você encontra resenhas detalhadas, recomendações personalizadas e um espaço para compartilhar sua opinião sobre seus livros favoritos.
+            Cadastre-se agora e faça parte da nossa comunidade literária! 📚🐝
             </p>
 
             <form id="login" class="mb-3">
-                <input type="text" class="form-control" id="nome" placeholder="Nome">
-                <input type="email" class="form-control" id="email" placeholder="Email">
-                <input type="submit" class="form-control" id="submit" value="Enviar">
+                <input type="email" class="form-control" id="nome" placeholder="Email">
+                <input type="password" class="form-control" id="email" placeholder="Senha">
+                <input type="submit" class="form-control" id="submit" value="Entrar">
             </form>
         </aside>
 
         <article>
-            <img src="./Components/Img/image.png" alt="Abelha baitola" id="bee_ilustration">
+            <img src="./Components/Img/image.png" alt="abelha_baitola" id="bee_ilustration">
         </article>
     </main>
     
+
+
     <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,7 +1,22 @@
 @media screen and (max-width: 760px) {
     
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     header{
         flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #input_search{
+        width: 12em;
+    }
+
+    #nav_topics, #title{
+        margin: 0 auto;
     }
 
     main{
